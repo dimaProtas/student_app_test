@@ -1,0 +1,30 @@
+.myForm .errors input {
+    border: solid 2px red;
+}
+
+.errors {
+    color: red;
+}
+
+.errorsServer {
+    color: red;
+}
+
+.myForm form {
+    display: flex;
+    justify-content: center;
+}
+
+.myForm form input,
+.myForm form button {
+    background: #222;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.myForm form button:hover {
+    color: red;
+    transform: scale(1.3);
+}

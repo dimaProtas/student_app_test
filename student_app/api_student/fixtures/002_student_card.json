@@ -1,0 +1,1 @@
+[{"model": "api_student.studentcardmodel", "pk": 1, "fields": {"id_student": 1, "name": 1}}, {"model": "api_student.studentcardmodel", "pk": 2, "fields": {"id_student": 2, "name": 2}}, {"model": "api_student.studentcardmodel", "pk": 3, "fields": {"id_student": 3, "name": 3}}]

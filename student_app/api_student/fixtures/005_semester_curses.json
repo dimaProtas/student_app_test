@@ -1,0 +1,1 @@
+[{"model": "api_student.semestercursesmodel", "pk": 1, "fields": {"id_semester": 1, "id_curses": 1, "date_start": "2023-11-18", "date_end": "2023-11-22"}}, {"model": "api_student.semestercursesmodel", "pk": 2, "fields": {"id_semester": 2, "id_curses": 2, "date_start": "2023-11-24", "date_end": "2023-11-28"}}]

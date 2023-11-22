@@ -1,0 +1,28 @@
+.myForm form {
+  background-color: #222;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 28%;
+  margin: 10px;
+}
+
+.myForm img {
+    max-width: 100%;
+}
+
+.myForm form input,
+.myForm form button,
+.myForm form select {
+    background: #222;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.myForm form button:hover {
+    color: red;
+    transform: scale(1.3);
+}

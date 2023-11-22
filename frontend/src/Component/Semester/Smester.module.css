@@ -1,0 +1,19 @@
+.conteinerSemester {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 40%;
+    color: whitesmoke;
+}
+
+.conteinerSemester svg:hover {
+    color: red;
+    transform: scale(1.3);
+}
+
+.conteinerSemester p {
+    margin-left: 10px;
+}

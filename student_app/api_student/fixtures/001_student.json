@@ -1,0 +1,1 @@
+[{"model": "api_student.studentmodel", "pk": 1, "fields": {"name": "Лео", "last_name": "Месси"}}, {"model": "api_student.studentmodel", "pk": 2, "fields": {"name": "Криштиано", "last_name": "Роналду"}}, {"model": "api_student.studentmodel", "pk": 3, "fields": {"name": "Василий", "last_name": "Уткин"}}]

@@ -1,0 +1,41 @@
+version: '3.3'
+
+services:
+
+  postgres:
+    image: postgres:latest
+    privileged: true
+    container_name: my_postgres
+    ports:
+      - "5432:5432"
+    env_file:
+      - ./student_app/.env
+    volumes:
+      - ./pg_data:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ./student_app
+      dockerfile: ./Dockerfile
+    command: bash -c "python ./student_app/manage.py migrate && python ./student_app/manage.py shell < ./student_app/api_student/seeds.py && python ./student_app/manage.py runserver 0.0.0.0:8000"
+    image: app
+    ports:
+      - "8000:8000"
+    links:
+      - postgres
+    depends_on:
+      - postgres
+    volumes:
+      - .:/app
+    env_file:
+      - ./student_app/.env
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+

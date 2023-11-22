@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teacherContainer {
+    background-color: #222;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 20%;
+    margin: 10px;
+}
+
+.teacherContainer img {
+    max-width: 100%;
+}
+
+.teacherContainer svg {
+    float: right;
+}
+
+.teacherContainer svg:hover {
+    transform: scale(1.2);
+    color: red;
+}

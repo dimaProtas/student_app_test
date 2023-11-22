@@ -1,0 +1,5 @@
+venv/
+student_app/student_app/settings_local.py
+student_app/db.sqlite3
+student_app/.env
+pg_data/

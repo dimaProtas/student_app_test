@@ -1,0 +1,1 @@
+[{"model": "api_student.semestrmodel", "pk": 1, "fields": {"num_semester": 1}}, {"model": "api_student.semestrmodel", "pk": 2, "fields": {"num_semester": 2}}, {"model": "api_student.semestrmodel", "pk": 3, "fields": {"num_semester": 3}}, {"model": "api_student.semestrmodel", "pk": 4, "fields": {"num_semester": 4}}]

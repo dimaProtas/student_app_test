@@ -1,0 +1,1 @@
+[{"model": "api_student.teachermodel", "pk": 1, "fields": {"name_teacher": "Альберт", "last_name_teacher": "Энштейн", "rank_teacher": "Профессор", "semester": [1, 3]}}, {"model": "api_student.teachermodel", "pk": 2, "fields": {"name_teacher": "Грек", "last_name_teacher": "Пифагор", "rank_teacher": "Легенда", "semester": [4]}}]

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.studentContainer {
+    background-color: #222;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 20%;
+    margin: 10px;
+}
+
+.studentContainer img {
+    max-width: 100%;
+}
+
+.studentContainer svg {
+    float: right;
+}
+
+.studentContainer svg:hover {
+    transform: scale(1.2);
+    color: red;
+}
